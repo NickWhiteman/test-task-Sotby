@@ -1,0 +1,9 @@
+.ya__logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+  
+img {
+  width: 30%;
+}

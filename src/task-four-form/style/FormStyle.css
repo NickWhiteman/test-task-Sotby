@@ -1,0 +1,66 @@
+input {
+    height: 50px;
+    width: 300px;
+    color: #715050;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(180, 118, 118, 0.3);
+    box-shadow: 3px 3px 5px rgba(83, 27, 27, 0.3);
+}
+
+.form-wrapper {
+    display: grid;
+    grid-template-rows: 1ft 1fr;
+    margin: 0 auto;
+    color: #715050;
+    height: 450px;
+    margin-top: 10%;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(180, 118, 118, 0.3);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    color: #715050;
+    border: none;
+    background-color: rgba(180, 118, 118, 0.3);
+    position: absolute;
+    margin-top: 25px;
+}
+
+.form-dialog {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.my-question {
+    margin: 0;
+    padding: 0;
+}
+
+.my-answer {
+    margin: 0;
+    padding: 0;
+    transition: all ease .4s;
+}

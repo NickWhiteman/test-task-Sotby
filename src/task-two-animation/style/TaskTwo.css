@@ -1,0 +1,35 @@
+.task-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30vh;
+}
+  
+p {
+    width: 60%;
+    margin: 0 auto;
+}
+  
+.task-two__header {
+    margin-left: 100px;
+    position: relative;
+    color: black;
+    cursor: pointer;
+    line-height: 1;
+}
+  
+.task-two__header:after {
+    display: block;
+    position: absolute;
+    left: 0; 
+    width: 0;
+    height: 2px;
+    background-color: red;
+    content: "";
+    transition: width 0.7s ease-out;
+}
+  
+.task-two__header:hover:after,
+.task-two__header:focus:after {
+    width: 350px;
+}

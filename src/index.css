@@ -1,13 +1,20 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Proxima Nova';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNovaRegular.eot');
+  src: url('../fonts/ProximaNovaRegular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ProximaNovaRegular.woff') format('woff'),
+       url('../fonts/ProximaNovaRegular.ttf') format('truetype'),
+       url('../fonts/ProximaNovaRegular.svg#webfont') format('svg');
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Proxima Nova', sans-serif;
+
 }
